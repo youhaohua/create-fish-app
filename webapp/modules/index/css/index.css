@@ -1,0 +1,52 @@
+.header {
+    height: 60px;
+    position: fixed;
+    background: #000000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color:#ffffff;
+    top:0;
+    left:0;
+}
+
+.fish_img {
+    height: 30px;
+    margin-left: 100px;
+    margin-right:10px;
+  
+}
+
+.nav {
+    height: 200px;
+    margin-top:60px;
+    background: #296AD4;
+    color:#ffffff;
+}
+.content{ 
+ width:958px;
+ min-height:100px;
+ border:1px solid #e5e5e5;
+ margin:0 auto;
+ margin-top:30px;
+ border-radius:5px;
+ color:#2e2e2e;
+
+
+
+  }
+
+  .article-title{
+  
+  background:#fafafa;
+  height:40px;
+  line-height:40px;
+  padding:0 10px;
+  font-weight:bold;
+  border-bottom:1px solid #e5e5e5;
+   }
+.diss_img{width:700px;   }
+.text_box{padding:10px;   }
+.text_box p{line-height:30px;   }
+.text_box p.big{font-weight:bold;font-size:16px;   }
+.colorful{color:#66ab16;  }

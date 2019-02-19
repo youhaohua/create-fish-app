@@ -1,0 +1,38 @@
+<div class="header">
+    <img src="../images/fish.png" class="fish_img" alt="">
+    <span>CreateFishApp</span>
+</div>
+<div class="nav">
+</div>
+<article class="content">
+    <div class="article-title">readme</div>
+    <div class="text_box">
+        <p class="big">前言:</p>
+        <div class="colorful">
+            <p>fish和现在主流的前端框架一样都是单页应用，单页应用的前端代码本质上是静态文件，浏览器加载完对应的js和html后由js去渲染对应的前端代码，
+            那么问题来了，为什么作为一个前端每次做fish项目还要后端的同事搭建后端环境呢,可以用node开一个服务器或者webpack-dev-server来跑对应的代码,
+            这个demo使用webpack实现开发过程中的自动刷新和打包对应的fish组件，既然使用了webpack打包构建代码，那么fish的requirejs的模块化引入方式就可以
+            不用了。
+         </p>
+        </div>
+        <p>首先把项目需要引入的requirejs去掉,并使用es6的模块化方式引入对应的js组件</p>
+        <img src="../images/require.png" class="diss_img" alt="">
+        <p class="big">开启项目</p>
+        <p>进入package.json这一级文件夹，执行命令npm install(建议使用cnpm或者yarn)</p>
+        <p>npm run fish打开webpack-dev-server并自动打开浏览器</p>
+        <p>npm run build打包对应的fish组件和其他项目文件</p>
+        <p class="big">配置文件config.js(根据项目做配置)</p>
+        <p> openUrl:xxx //url配置</p>
+        <p> port:xxx //端口</p>
+        <p> proxy:{</p>
+        <p>'/iwhale-visual': {</p>
+        <p> target:'http://192.168.1.175:10088',</p>
+        <p> secure: false </p>
+        <p> }</p>
+        <p> }, //跨域设置</p>
+        <p> entry:'xxx.js' ,//入口js文件</p>
+        <p> output:'xxx.js'//出口文件</p>
+        <p class="big">结束:</p>
+        <p>开发过程一定会有其他问题，欢迎一起完善这个demo</p>
+    </div>
+</article>
